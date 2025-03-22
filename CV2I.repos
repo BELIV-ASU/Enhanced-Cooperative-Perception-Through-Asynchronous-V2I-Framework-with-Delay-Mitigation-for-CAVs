@@ -1,13 +1,24 @@
 repositories:
-  # carla-ros-bridge
-  ros-bridge:
-    type: git
-    url: https://github.com/rohanNkhaire/ros-bridge.git
-    version: master
-  
-  # C-V2I launch file
-  perception/launch:
-     type: git
-     url: https://github.com/BELIV-ASU/Sim-C-V2I-Launch-Nithish-Thesis.git
-     version: main
-  
+    # Launch file to full entire C-V2I framework
+    universe/autoware.universe/launch/sim_c_v2i_launch:
+        type: git
+        url: https://github.com/BELIV-ASU/Sim-C-V2I-Launch-Nithish-Thesis.git
+        version: main
+    
+    # Package to transform objects from camera frame to base link of the ego vehicle
+    universe/autoware.universe/perception/infrastructure_objects_frame_transformation:
+        type: git
+        url: https://github.com/BELIV-ASU/Infrastructure-Objects-Frame-Transformation-Nithish-Thesis.git
+        version: main
+
+    # Package to compensate delay from RSU
+    universe/autoware.universe/perception/infrastructure_objects_delay_compensation:
+        type: git
+        url: https://github.com/BELIV-ASU/Infrastructure-Objects-Delay-Compensation-Nithish-Thesis.git
+        version: main
+   
+    # Package to merge objects from RSU and onboard unit
+    universe/autoware.universe/perception/euclidean_object_merger:
+        type: git
+        url: https://github.com/BELIV-ASU/Euclidean-Object-Merger-Nithish-Thesis.git
+        version: main
