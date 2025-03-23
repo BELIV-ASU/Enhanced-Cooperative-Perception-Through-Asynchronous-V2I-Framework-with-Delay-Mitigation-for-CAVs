@@ -1,5 +1,7 @@
 # Enhanced Cooperative Perception Through Asynchronous Vehicle to Infrastructure Framework with Delay Mitigation for Connected and Automated Vehicles
 
+This repo provides necessary intructions and files to run the proposed C-V2I framework on your computer.
+
 <h3 align="center">Proposed V2I Framework</h3>
 <p align="center">
 <img src="images/flowchart.jpg" height="60%" width="60%">
@@ -97,3 +99,11 @@ vehicle, system and map are launched and the rest of the subsystems are set to f
     input_topic:=/perception/object_recognition/tracking/centerpoint/objects
     output_topic:=/perception/object_recognition/prediction/onboard_objects
     ```
+## Scneario Generation
+Please checkout the scenario generation process at [this](https://github.com/BELIV-ASU/Scenario-Generation-Nithish-Thesis.git) repo.   
+
+You can use this repo to recreate the scnerios which I already provided and can also use it as a template to create your own scnerios.
+
+## Note
+The setup is tested with
+- Autoware version 2024.04 on Ubuntu 22.04 (ROS Humble)
