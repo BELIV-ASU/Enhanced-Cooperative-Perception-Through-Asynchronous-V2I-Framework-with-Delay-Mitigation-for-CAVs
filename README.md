@@ -1,12 +1,26 @@
 # Enhanced Cooperative Perception Through Asynchronous Vehicle to Infrastructure Framework with Delay Mitigation for Connected and Automated Vehicles
 
-![Flowchart](images/flowchart.jpg)
+<h3 align="center">Proposed V2I Framework</h3>
+<p align="center">
+<img src="images/flowchart.jpg" height="60%" width="60%">
+</p>
+
+## Video Demonstration
+<h3 align="center">Scenario 1 Groundtruth</h3>
+<p align="center">
+<a href="https://www.dropbox.com/scl/fi/ju9qcc3kok1mpw0n1azyh/Scenario-1-Ground-truth.mp4?rlkey=7k46ugxnwc8luhnyfcobg1if5&st=hxwpvtdz&dl=0"><img src="images/video1_gt_thumbnail.png" height="80%" width="80%"></a>
+</p>
+
+<h3 align="center">Perception Results without and with C-V2I framework</h3>
+<p align="center">
+<a href="https://www.dropbox.com/scl/fi/5sedgohe9e14qtlffmjcu/scenario1.mp4?rlkey=ezsymqz3wfciz2s0t77c6ucj4&st=xx7u2ssg&dl=0"><img src="images/video1_thumbnail.png" height="80%" width="80%"></a>
+</p>
 
 ## Usage
 1. Autoware installation - [github repo](https://github.com/autowarefoundation/autoware/tree/release/2024.04)  
 Note: Our framework is tested with Autoware version 2024.04
 
-2. Download and install the custom created ROS2 packages for V2I  
+2. Download and install the custom created ROS2 packages for the proposed C-V2I framework
     ```
     # Change directory to your Autoware base folder
     cd autoware 
