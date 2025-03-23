@@ -99,6 +99,10 @@ vehicle, system and map are launched and the rest of the subsystems are set to f
     input_topic:=/perception/object_recognition/tracking/centerpoint/objects
     output_topic:=/perception/object_recognition/prediction/onboard_objects
     ```
+
+## Evaluation of the C-V2I Framework
+Evaluation results of scnerio 1 and the corresponding results can be found [here](https://github.com/BELIV-ASU/C-V2I-Framework-Evaluation-Nithish-Thesis.git)
+
 ## Scneario Generation
 Please checkout the scenario generation process at [this](https://github.com/BELIV-ASU/Scenario-Generation-Nithish-Thesis.git) repo.   
 
