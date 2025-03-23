@@ -1,5 +1,7 @@
 # Enhanced Cooperative Perception Through Asynchronous Vehicle to Infrastructure Framework with Delay Mitigation for Connected and Automated Vehicles
 
+![Flowchart](images/flowchart.jpg)
+
 ## Usage
 1. Autoware installation - [github repo](https://github.com/autowarefoundation/autoware/tree/release/2024.04)  
 Note: Our framework is tested with Autoware version 2024.04
@@ -56,7 +58,7 @@ vehicle, system and map are launched and the rest of the subsystems are set to f
     ros2 launch sim_c_v2i_launch sim_c_v2i.launch.xml
     ```
 
-## Run Perception Framework also without C-V2I
+## Run Perception Framework alone without C-V2I
 1. Extract the ROS2 bag and run scenario 1 ROS2 bag file
     ```
     ros2 bag play your_ros2_bag_name.db3
