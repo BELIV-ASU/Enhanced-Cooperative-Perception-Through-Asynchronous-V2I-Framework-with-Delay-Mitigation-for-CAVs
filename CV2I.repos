@@ -22,3 +22,15 @@ repositories:
         type: git
         url: https://github.com/BELIV-ASU/Euclidean-Object-Merger-Nithish-Thesis.git
         version: main
+
+    # Package with modified autoware launch file. Launches only the required subsystems.
+    launcher/autoware_launch/autoware_launch/launch/:
+        type: git
+        url: https://github.com/BELIV-ASU/Autoware-Launch-Nithish-Thesis.git
+        version: main
+
+    # Repo with modified configuration file for map based prediction module
+    universe/autoware.universe/perception/map_based_prediction/config/:
+        type: git
+        url: https://github.com/BELIV-ASU/Prediction-Module-Config-File-Nithish-Thesis.git
+        version: main
