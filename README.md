@@ -46,8 +46,8 @@ Note: Our framework is tested with Autoware version 2024.04
     ```
 
 ## Run the C-V2I Framework
-- ROS2 bag files - [click here](https://www.dropbox.com/home/Nithish%20Saravanan/Nithish%20Thesis)  
-+ CARLA Town10 lanelet and pointcloud map - [click here](https://www.dropbox.com/home/Nithish%20Saravanan/Nithish%20Thesis/Town10)  
+- ROS2 bag files - [click here](https://www.dropbox.com/scl/fo/m0cce6532kmm2knsoyidk/AI94Bxjn90P-P1yDTxxHgAE?rlkey=8bhm8rnse7vqttz17f11ts2ck&st=u1z6l9qg&dl=0)  
++ CARLA Town10 lanelet and pointcloud map - [click here](https://www.dropbox.com/scl/fo/qnov61ae9ud26y0emj6gu/AOfxFOKarJyiAkZA-n1GEZ0?rlkey=3a5tsrdfjhe4o1in24j33thyl&st=3ervnn9d&dl=0)
 Place in the map in the following folder:  
 /home/**Your USERNAME**/autoware_map/Town10
 
@@ -106,7 +106,7 @@ Evaluation results of scnerio 1 and the corresponding results can be found [here
 ## Scneario Generation
 Please checkout the scenario generation process at [this](https://github.com/BELIV-ASU/Scenario-Generation-Nithish-Thesis.git) repo.   
 
-You can use this repo to recreate the scnerios which I already provided and can also use it as a template to create your own scnerios.
+You can use this repo to recreate the scenarios which I already provided and can also use it as a template to create your own scenarios.
 
 ## Note
 The setup is tested with
